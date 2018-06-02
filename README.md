@@ -1,10 +1,10 @@
 # Ionic- Flex/Banner Printing Business-Application 
 Application use :
 
-take photograph of area  require  for printing  flex/banner of  particular shop/home.
-draw on image how much size area require (length and width of area ) .
-employee can perfom Undo/Redo/cancel operation after drawing on image
-send that image to server by writing caption on it .
+1. take photograph of area  require  for printing  flex/banner of  particular shop/home.
+2. draw on image how much size area require (length and width of area ) .
+3. employee can perfom Undo/Redo/cancel operation after drawing on image
+4. send that image to server by writing caption on it .
 
 Advantages :
 
