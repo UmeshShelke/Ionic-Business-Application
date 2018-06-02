@@ -1,0 +1,23 @@
+        <ion-header>
+          <ion-navbar>
+              <ion-title>
+                  Task List
+                </ion-title>
+          </ion-navbar>
+        </ion-header>
+        
+        <ion-content padding class="background" >
+        
+            <ion-item>
+            <ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="myDate"></ion-datetime>
+            </ion-item>
+      <div class="abcd">
+        <ion-searchbar (ionInput)="getTopics($event)" [showCancelButton]="shouldShowCancel" (ionCancel)="onCancel($event)"></ion-searchbar>
+        </div>
+          <ion-list>
+            <ion-item *ngFor="let topic of topics" [navPush]="SignaturePage ">
+              {{ topic }}
+            </ion-item>
+          </ion-list>
+         
+        </ion-content>
